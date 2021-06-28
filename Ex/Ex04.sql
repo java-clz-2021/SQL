@@ -89,24 +89,9 @@ where em.manager_id = ma.employee_id;
 
 
 
-
-
-select *
-from employees;
-
-
+--조인 컬럼을 사용할때는 조심해서 사용해야 한다
 select *
 from employees em , locations lo
 where em.salary = lo.location_id;
 
 
-
-select *
-from departments;
-
-select *
-from jobs;
-
-
-select *
-from locations;
