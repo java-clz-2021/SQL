@@ -85,5 +85,3 @@ where author_id = 5;
 --author 테이블에서 기안84 데이터를 삭제해 보세요  삭제 안됨 이유는??
 delete from author
 where author_id = 4;
-
-aaa
